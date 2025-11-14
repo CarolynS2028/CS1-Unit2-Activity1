@@ -1,17 +1,18 @@
 .flexbox {
     display: flex;
-    border: 2px solid blue;
+    border: 2px solid rgb(197, 109, 109);
     padding: 20px;
 }
 
 
-.item { border: 2px solid red;
+
+.item { border: 2px solid black;
 padding: 20px;
 } 
 
 #box1 {
-    justify-content: space-evenly;
-    background-color: pink;
+    justify-content: space-around;
+    background-color: rgb(255, 201, 210);
 } 
 
 
@@ -19,7 +20,14 @@ padding: 20px;
     justify-content: space-evenly; 
 }
 
-#box3 {
-    background: rgb(247, 220, 224);
+#box2 {
+    background-color: rgb(250, 244, 236);
 }
 
+#box3 {
+    background: rgb(241, 189, 137);
+}
+
+#box4 {
+    background-color: rgb(255, 246, 220);
+}
