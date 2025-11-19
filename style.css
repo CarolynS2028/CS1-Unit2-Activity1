@@ -1,12 +1,12 @@
 .flexbox {
     display: flex;
-    border: 2px solid rgb(197, 109, 109);
+   
     padding: 20px;
 }
 
 
 
-.item { border: 2px solid black;
+.item { 
 padding: 20px;
 } 
 
@@ -30,4 +30,14 @@ padding: 20px;
 
 #box4 {
     background-color: rgb(255, 246, 220);
+}
+
+img {
+    border: 5px solid black;
+    border-radius: 4px;
+    border-style: double;
+}
+button {
+    color: rgb(121, 77, 33);
+    height: 80px;
 }
